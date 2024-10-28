@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Comfortaa:wght@300..700&family=Jolly+Lodger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Acme&family=Comfortaa:wght@300..700&family=Jolly+Lodger&display=swap');
+
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.inicio {
+    display: flex;
+}
+
+.inicio img {
+    width: 450px;
+}
+body {
+    background-color: #09104F;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.titulo {
+    color: #98DED9;
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 75px;
+}
+
+.botones {
+    color: black;
+    font-family: "ADLaM Display", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    width: 244px;
+    height: 88px;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background: #607EAA;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 3px;
+    font-size: x-large;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.textos {
+    color: #F9F5EB;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: normal;
+}
+
+.mini-nosotros {
+    color: #F9F5EB;
+    display: flex;
+   
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: normal;
+}
+.mini-nosotros img {
+    width: 340px;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.boton-regresar {
+    display: flex;
+    color: black;
+    background: #C7FFD8;
+    width: 172px;
+    border-radius: 20px;
+    height: 54px;
+    font-size: x-large;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: "ADLaM Display", system-ui;
+    align-content: center;
+} 
